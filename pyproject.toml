@@ -1,0 +1,14 @@
+[project]
+name = "fubuki-app"
+version = "0.1.0"
+description = "This is a project template for building web applications using the Fubuki ASGI framework."
+authors = []
+dependencies = [
+    "fubuki>=0.1.0",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm]
+distribution = false
